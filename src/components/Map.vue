@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<template>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -34,9 +33,16 @@
       </div>
     </nav>
     <div id="svgMap"></div>
-
-    <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.6.0/dist/svgMap.min.js"></script>
-    <script src="main.js"></script>
   </body>
-</html>
+</template>
+
+<script>
+export default {
+    name: "mainjs",
+    import: "main.js",  
+}
+</script>
+
+<style>
+
+</style>

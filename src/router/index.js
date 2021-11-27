@@ -7,9 +7,19 @@ import Home from '../views/Home.vue';
 const routes = [{
   path: '/',
   name: 'Home',
-  component: Home
+  component: Home,
+
+},
+{
+  path: '/map',
+  name: 'Map',
+  component: () => import("@/components/Map.vue")
 }
 ];
+
+
+
+
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
