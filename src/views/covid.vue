@@ -1,13 +1,11 @@
 <template>
-  <div>
-      sadsdfdsf
+  <div>  
+    <div id="svgMap"></div>
   </div>
 </template>
 
-<script>
-export default {
+<script src="@/main1.js">
 
-}
 </script>
 
 <style>

@@ -13,6 +13,7 @@
     >
       Очистить
     </button>
+  <a class="bg-blue-400  text-white rounded p-2 mt-9 flex flex-col align-center justify-center text-center" href="/map">Карта</a>
   </main>
 
   <main v-else class="flex flex-col align-center justify-center text-center">
