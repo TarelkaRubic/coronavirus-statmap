@@ -8,7 +8,7 @@
 
     <button
       v-if="status.Country"
-      class="bg-green-700 text-white rounded p-3 mt-10 focus:outline-none hover:bg-green-600"
+      class="bg-blue-700 text-white rounded p-3 mt-10 focus:outline-none hover:bg-red-600"
       @click="clearCountryData"
     >
       Очистить

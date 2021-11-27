@@ -6,7 +6,7 @@
 
     <p>
       
-      <a class="text-blue-300" href="https://covid19api.com" target="_blank"
+      <a class="text-purple-300" href="https://covid19api.com" target="_blank"
       >covid19api.com</a
       >
     </p>
